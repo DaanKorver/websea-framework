@@ -1,7 +1,7 @@
 class RouterView extends HTMLElement {
 
     static node
-    static baseURL = window.location.origin+window.location.pathname;
+    static baseURL = window.location.origin;
     constructor() {
         super()
         this.html = ""
